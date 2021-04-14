@@ -14,7 +14,7 @@ const Dashboard = () => {
     };
 
     useEffect(() => {
-        fetch("http://localhost:9000/appointmentsByDate", {
+        fetch("https://infinite-atoll-44628.herokuapp.com/appointmentsByDate", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({

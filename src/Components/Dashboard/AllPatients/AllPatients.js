@@ -5,7 +5,7 @@ import "./AllPatients.css";
 const AllPatients = () => {
     const [patients, setPatients] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:9000/appointments")
+        fetch("https://infinite-atoll-44628.herokuapp.com/appointments")
             .then((res) => res.json())
             .then((data) => setPatients(data));
     }, []);

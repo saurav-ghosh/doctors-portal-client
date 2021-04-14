@@ -21,7 +21,7 @@ const Doctors = () => {
     // ];
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:9000/doctors")
+        fetch("https://infinite-atoll-44628.herokuapp.com/doctors")
             .then((res) => res.json())
             .then((data) => setDoctors(data));
     }, []);

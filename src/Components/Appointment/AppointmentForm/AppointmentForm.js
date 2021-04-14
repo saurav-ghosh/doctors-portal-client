@@ -28,7 +28,7 @@ const AppointmentForm = ({ subject, modalIsOpen, closeModal, date }) => {
         data.date = date;
         data.bookingDate = new Date();
 
-        fetch("http://localhost:9000/addAppointment", {
+        fetch("https://infinite-atoll-44628.herokuapp.com/addAppointment", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
