@@ -1,0 +1,11 @@
+.login-input {
+    margin-bottom: 12px;
+}
+.login-box {
+    width: 450px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px;
+    height: 495px;
+    border-radius: 5px;
+    margin-top: 40px;
+}

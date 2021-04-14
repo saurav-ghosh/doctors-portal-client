@@ -1,0 +1,25 @@
+.appCalender-container {
+    padding: 20px;
+}
+.appCalender {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    box-shadow: 3px 3px 10px gray;
+}
+.appCalender button {
+    margin: 5px;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+    font-size: 17px;
+}
+.appCalender button:hover {
+    background-color: #18d2af !important;
+    border-radius: 5px !important;
+    color: white !important;
+    transition: 0.2s;
+}
+.appCalender button active {
+    background-color: #18d2af !important;
+}

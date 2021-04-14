@@ -1,0 +1,7 @@
+.appointsByDate {
+    box-shadow: 3px 3px 10px gray;
+    margin-top: 85px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 450px;
+}
